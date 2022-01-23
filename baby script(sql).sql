@@ -1,0 +1,12 @@
+create database babyworld;
+show databases;
+use torryharris;
+show tables;
+select * from productmodel;
+select * from register;
+select * from authentication_token;
+desc user;
+alter table user modify mobilenumber long;
+use babyworld;
+select * from user;
+delete from productmodel where id=11;
